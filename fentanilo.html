@@ -1,1 +1,132 @@
 <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fentanilo - ¡A la primera te mata!</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffcccc, #ffe6e6);
+            color: #333;
+        }
+        .hamburger-icon {
+            display: block;
+            position: fixed;
+            top: 15px;
+            right: 15px;
+            z-index: 1000;
+            background: none;
+            border: none;
+            font-size: 30px;
+            cursor: pointer;
+            color: #333;
+        }
+        .menu-nav {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 250px;
+            height: 100%;
+            background-color: #222;
+            z-index: 999;
+            transform: translateX(100%);
+            transition: transform 0.3s ease-in-out;
+        }
+        .menu-nav.active { transform: translateX(0); }
+        .menu-nav ul {
+            list-style: none;
+            padding: 70px 0 0 0;
+            margin: 0;
+        }
+        .menu-nav li a {
+            display: block;
+            padding: 15px 20px;
+            text-decoration: none;
+            color: white;
+            border-bottom: 1px solid #555;
+        }
+        .menu-nav li a:hover { background-color: #ff4d4d; }
+
+        .container {
+            max-width: 900px;
+            margin: 100px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        h1 { color: #b30000; text-align: center; }
+        h2 { color: #333; margin-top: 20px; }
+        p { text-align: justify; }
+        ul { margin-left: 20px; }
+        .note {
+            background: #fff5f5;
+            border-left: 5px solid #ff4d4d;
+            padding: 10px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Botón menú -->
+    <button class="hamburger-icon" id="menu-toggle">☰</button>
+
+    <!-- Menú lateral -->
+    <nav class="menu-nav" id="menu">
+        <ul>
+            <li><a href="index.html">Las drogas y su clasificación</a></li>
+            <li><a href="fentanilo.html">Fentanilo. ¡A la primera te mata!</a></li>
+            <li><a href="metanfetamina.html">Metanfetamina. ¡Te engancha!</a></li>
+            <li><a href="vapeadores.html">Vapeadores. ¡Neta son tóxicos!</a></li>
+            <li><a href="cannabis.html">Cannabis (marihuana). ¡Sí te daña!</a></li>
+            <li><a href="tabaco.html">Tabaco. ¡Te afecta a ti y a todos!</a></li>
+            <li><a href="alcohol.html">Alcohol. ¡Cuídate, no inicies!</a></li>
+            <li><a href="benzodiacepinas.html">Benzodiacepinas. ¡No son un juego!</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido -->
+    <div class="container">
+        <h1>Fentanilo</h1>
+        <h2>¡A la primera te mata!</h2>
+
+        <p>
+            El fentanilo es un analgésico sintético extremadamente potente, hasta 100 veces más fuerte que la morfina. 
+            Su uso médico está controlado, pero su versión ilegal —fabricada clandestinamente— se vende en polvo, gotas o pastillas, y puede causar la muerte desde la primera dosis.
+        </p>
+
+        <h2>Formas de consumo</h2>
+        <p>
+            Se puede fumar, inyectar o ingerir. El fentanilo ilícito suele presentarse como pastillas con el sello “M30” o mezclado con otras drogas, lo que aumenta el riesgo de sobredosis.
+        </p>
+
+        <h2>Efectos y riesgos</h2>
+        <ul>
+            <li>Provoca relajación y euforia breves.</li>
+            <li>En dosis altas, causa paro respiratorio y muerte.</li>
+            <li>Genera adicción rápida y síndrome de abstinencia severo.</li>
+            <li>Daños graves al corazón y sistema nervioso.</li>
+        </ul>
+
+        <div class="note">
+            <strong>Importante:</strong>  
+            Una sola dosis puede ser mortal. Su potencia y facilidad para mezclarse con otras drogas lo convierten en una de las sustancias más peligrosas.
+        </div>
+
+        <h2>Mitos y realidades</h2>
+        <ul>
+            <li><b>Mito:</b> “Solo mata si se consume mucho.”<br><b>Realidad:</b> Una mínima cantidad puede provocar sobredosis fatal.</li>
+            <li><b>Mito:</b> “Si lo controlo, no pasa nada.”<br><b>Realidad:</b> Es altamente adictivo desde la primera vez.</li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const menu = document.getElementById("menu");
+        menuToggle.addEventListener("click", () => menu.classList.toggle("active"));
+    </script>
+</body>
+</html>

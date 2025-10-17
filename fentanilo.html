@@ -1,77 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fentanilo</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #867257, #b49266);
-            color: #333;
-        }
-        .hamburger-icon {
-            display: block;
-            position: fixed;
-            top: 15px;
-            right: 15px;
-            z-index: 1000;
-            background: none;
-            border: none;
-            font-size: 30px;
-            cursor: pointer;
-            color: #333;
-        }
-        .menu-nav {
-            position: fixed;
-            top: 0;
-            right: 0;
-            width: 250px;
-            height: 100%;
-            background-color: #222;
-            z-index: 999;
-            transform: translateX(100%);
-            transition: transform 0.3s ease-in-out;
-        }
-        .menu-nav.active { transform: translateX(0); }
-        .menu-nav ul {
-            list-style: none;
-            padding: 70px 0 0 0;
-            margin: 0;
-        }
-        .menu-nav li a {
-            display: block;
-            padding: 15px 20px;
-            text-decoration: none;
-            color: white;
-            border-bottom: 1px solid #555;
-        }
-        .menu-nav li a:hover { background-color: #ff4d4d; }
-
-        .container {
-            max-width: 900px;
-            margin: 100px auto;
-            background: white;
-            padding: 25px;
-            border-radius: 15px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.2);
-        }
-        h1 { color: #b30000; text-align: center; }
-        h2 { color: #333; margin-top: 20px; }
-        p { text-align: justify; }
-        ul { margin-left: 20px; }
-        .note {
-            background: #fff5f5;
-            border-left: 5px solid #ff4d4d;
-            padding: 10px;
-            margin: 20px 0;
-            border-radius: 8px;
-        }
-    </style>
+    <title>Fentanilo - ¡A la primera te mata!</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <button class="hamburger-icon" id="menu-toggle">☰</button>
 
     <nav class="menu-nav" id="menu">
@@ -87,53 +22,88 @@
         </ul>
     </nav>
 
-
     <div class="container">
-        <h1><b>Fentanilo</b></h1>
+        <h1>Fentanilo</h1>
         <h2>¡A la primera te mata!</h2>
 
+        <h2>Propósito</h2>
         <p>
-            El fentanilo es una droga analgésica que se usa para disminuir el dolor; puede causar graves problemas a la salud y muerte por sobredosis. En años recientes, su uso 
-            ilícito se ha extendido, principalmente, en el norte del país, donde
-            su fabricación y tráfico han contribuido al aumento de la violencia
-            en esa región.
-            Existen dos tipos de fentanilo: El
-            fentanilo de uso médico y el fentanilo ilícito.
-            Los médicos lo recetan a pacientes
-            con cáncer terminal para tratar
-            los dolores crónicos o a personas que se realizan operaciones
-            quirúrgicas.
-            El fentanilo ilícito es una sustancia
-            de abuso producida en laboratorios clandestinos. Los residuos tóxicos de su fabricación provocan
-            daños en la salud de la población
-            que habita cerca de esos laboratorios. Así también, la competencia
-            por el dominio del mercado genera entornos violentos que afectan
-            la seguridad de los sitios donde se
-            produce y trafica.
+            Dar a conocer el grave daño que causa el fentanilo a la salud de quienes lo consumen en México, 
+            así como las consecuencias que genera su producción y distribución en la sociedad.
+        </p>
+
+        <h2>¿Qué es?</h2>
+        <p>
+            El fentanilo es una droga analgésica que se usa para disminuir el dolor; puede causar graves problemas a la salud y muerte por sobredosis. 
+            En los últimos años, su consumo ilícito ha aumentado, especialmente en el norte del país, donde su fabricación y tráfico han incrementado la violencia. 
+            Existen dos tipos: el fentanilo de uso médico y el fentanilo ilícito.
+        </p>
+        <p>
+            El de uso médico se receta a pacientes con cáncer terminal o con dolores crónicos severos. 
+            El ilícito, por otro lado, se fabrica en laboratorios clandestinos, y sus residuos tóxicos contaminan el medio ambiente y dañan la salud de quienes viven cerca. 
+            Su comercio ilegal también contribuye a la inseguridad y violencia en las comunidades.
         </p>
 
         <h2>Formas de consumo</h2>
         <p>
-            Se puede fumar, inyectar o ingerir. El fentanilo ilícito suele presentarse como pastillas con el sello “M30” o mezclado con otras drogas, lo que aumenta el riesgo de sobredosis.
+            Las principales formas de consumo son por vía oral, fumado e inyectado; las dos últimas representan el mayor riesgo. 
+            Desde 2016, el fentanilo ilícito se distribuye en varias presentaciones:
+        </p>
+        <ul>
+            <li>Polvo blanco</li>
+            <li>Gotas sobre papel secante</li>
+            <li>Pequeñas golosinas o dulces</li>
+            <li>Gotero para los ojos</li>
+            <li>Vaporizadores nasales</li>
+            <li>Pastillas similares a analgésicos recetados</li>
+            <li>Pastillas de colores con el sello “M30”</li>
+        </ul>
+
+        <h2>Efectos durante su consumo</h2>
+        <p>
+            El fentanilo tiene un efecto analgésico muy potente. Su uso médico puede aliviar dolores intensos; sin embargo, 
+            cuando se usa ilícitamente genera relajación y sensación de placer durante 3 a 5 horas, seguidas de somnolencia, desorientación y pérdida de reflejos. 
+            El abuso puede provocar una reducción extrema del ritmo respiratorio, paro cardíaco y la muerte.
         </p>
 
-        <h2>Efectos y riesgos</h2>
+        <h2>Efectos después del consumo</h2>
+        <p>
+            Tras dejar de consumirlo, aparecen síntomas severos de abstinencia: dificultad para dormir, ansiedad, depresión, escalofríos, vómito, diarrea, 
+            dolores musculares, sudoración, calambres, debilidad y fatiga.  
+            A mayor dosis y frecuencia de consumo, más graves son estos síntomas, que pueden durar semanas o incluso meses.
+        </p>
+
+        <h2>Principales daños irreversibles a la salud</h2>
         <ul>
-            <li>Provoca relajación y euforia breves.</li>
-            <li>En dosis altas, causa paro respiratorio y muerte.</li>
-            <li>Genera adicción rápida y síndrome de abstinencia severo.</li>
-            <li>Daños graves al corazón y sistema nervioso.</li>
+            <li>Descoordinación motora y alteraciones musculares.</li>
+            <li>Problemas en la articulación del habla y del movimiento.</li>
+            <li>Pérdida del sueño, del apetito y de la memoria.</li>
+            <li>Trastornos mentales: ansiedad, depresión y aislamiento.</li>
+            <li>Problemas cardíacos y alto riesgo de muerte por sobredosis.</li>
         </ul>
 
         <div class="note">
-            <strong>Importante:</strong>  
-            Una sola dosis puede ser mortal. Su potencia y facilidad para mezclarse con otras drogas lo convierten en una de las sustancias más peligrosas.
+            <strong>Ten presente:</strong>
+            <ul>
+                <li>El fentanilo es una de las drogas más potentes y adictivas conocidas.</li>
+                <li>Se vende en diferentes presentaciones que facilitan su adquisición y consumo.</li>
+                <li>Se usa para adulterar otras drogas como cocaína o metanfetamina, aumentando el riesgo de sobredosis.</li>
+            </ul>
         </div>
 
         <h2>Mitos y realidades</h2>
         <ul>
-            <li><b>Mito:</b>El fentanilo no es tan potente como se dice.<br><b>Realidad:</b> Una mínima cantidad puede provocar sobredosis fatal.</li>
-            <li><b>Mito:</b> “Si lo controlo, no pasa nada.”<br><b>Realidad:</b> Es altamente adictivo desde la primera vez.</li>
+            <li><b>Mito:</b> El fentanilo no es tan fuerte como se dice.  
+                <br><b>Realidad:</b> Es un opioide sintético extremadamente potente, fabricado en laboratorio, que puede ser mortal incluso en dosis mínimas.</li><br>
+
+            <li><b>Mito:</b> En dosis pequeñas actúa como estimulante.  
+                <br><b>Realidad:</b> Falso. Su efecto es depresor: reduce las funciones vitales como la respiración, el pulso y la presión arterial.</li><br>
+
+            <li><b>Mito:</b> Con una vez no pasa nada.  
+                <br><b>Realidad:</b> Una sola dosis puede provocar paro respiratorio y muerte inmediata.</li><br>
+
+            <li><b>Mito:</b> El fentanilo solo hace daño si se usa seguido.  
+                <br><b>Realidad:</b> Desde la primera vez puede causar adicción física y psicológica.</li>
         </ul>
     </div>
 

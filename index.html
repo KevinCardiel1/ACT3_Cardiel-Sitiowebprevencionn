@@ -4,69 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Las Drogas y su Clasificación</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #c297fa, #c6b7e2);
-            color: #333;
-        }
-        .hamburger-icon {
-            display: block;
-            position: fixed;
-            top: 15px;
-            right: 15px;
-            z-index: 1000;
-            background: none;
-            border: none;
-            font-size: 30px;
-            cursor: pointer;
-            color: #cf46bd;
-        }
-        .menu-nav {
-            position: fixed;
-            top: 0;
-            right: 0;
-            width: 250px;
-            height: 100%;
-            background-color: #4264fc;
-            z-index: 999;
-            transform: translateX(100%);
-            transition: transform 0.3s ease-in-out;
-        }
-        .menu-nav.active { transform: translateX(0); }
-        .menu-nav ul {
-            list-style: none;
-            padding: 70px 0 0 0;
-            margin: 0;
-        }
-        .menu-nav li a {
-            display: block;
-            padding: 15px 20px;
-            text-decoration: none;
-            color: white;
-            border-bottom: 1px solid #555;
-        }
-        .menu-nav li a:hover { background-color: #ff4d4d; }
-
-
-
-        .note {
-            background: #fff5f5;
-            border-left: 5px solid #3c17c0;
-            border-right: 5px solid #3c17c0;
-            padding: 10px;
-            margin: 20px 0;
-            border-radius: 8px;
-        }
-        footer {
-            text-align: center;
-            background: #222;
-            color: white;
-            padding: 15px;
-            margin-top: 40px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <button class="hamburger-icon" id="menu-toggle">☰</button>
@@ -89,43 +27,57 @@
 
         <h2>¿Qué son?</h2>
         <p>
-            La Organización Mundial de la Salud (OMS) define el término droga o sustancia psicoactiva como
-            aquel compuesto de origen natural, semisintético o sintético
-            que produce alguna modificación en una o más funciones en el
-            organismo, sea cual sea la vía de
-            administración. 
+            La Organización Mundial de la Salud (OMS) define el término droga o sustancia psicoactiva como 
+            aquel compuesto de origen natural, semisintético o sintético que produce alguna modificación en una o más funciones del organismo, 
+            sea cual sea la vía de administración. Las drogas o sustancias psicoactivas alteran el funcionamiento del cerebro y del cuerpo, 
+            modificando el comportamiento, las emociones, la percepción o la conciencia. 
+        </p>
+        <p>
+            El consumo de drogas puede provocar dependencia física o psicológica, tolerancia, síndrome de abstinencia 
+            y múltiples daños a la salud. Su uso, abuso y adicción afectan la vida familiar, social y académica, y pueden generar 
+            conflictos emocionales y conductas de riesgo.
         </p>
 
         <h2>Clasificación general</h2>
-        <ul>
-            <li><b>Depresores:</b> Suprimen, inhiben o reducen algunos aspectos de la actividad del
-                Sistema Nervioso Central (SNC).
-                • Síntomas de intoxicación: confusión, habla distorsionada, mareos, sequedad en la boca, problemas motrices y de memoria.
-                La respiración se vuelve lenta o
-                se detiene por completo.
-                • Las principales sustancias depresoras del SNC son medicamentos sedantes y opiáceos.
-                • Algunos ejemplos son el alcohol, la cannabis, los analgésicos,
-                las benzodiacepinas, los opiáceos y sus análogos sintéticos
-                como el fentanilo</li>
+        <p>
+            De acuerdo con sus efectos sobre el Sistema Nervioso Central (SNC), las drogas se clasifican en cuatro grupos principales:
+        </p>
 
-            <li><b>Estimulantes:</b>Activan, potencian o incrementan
-                la actividad del SNC.
-                • Síntomas de intoxicación: aumento de la frecuencia cardiaca,
-                la temperatura corporal y la presión arterial. Generan una sensación de energía, un estado de
-                alerta y de locuacidad. Además
-                de una sudoración excesiva, escalofríos, náuseas y vómito.
-                • Algunos ejemplos son la cafeína,
-                la nicotina, la cocaína y la metanfetamina. </li>
-            <li><b>Alucinógenas:</b> alteran la percepción y el pensamiento. Ejemplo: LSD, hongos, marihuana.</li>
-            <li><b>Fármacos de uso médico:</b> medicamentos que actúan sobre el sistema nervioso, algunos con riesgo de adicción si se usan sin receta.</li>
+        <ul>
+            <li>
+                <b>Depresoras:</b> Suprimen, inhiben o reducen algunos aspectos de la actividad del Sistema Nervioso Central (SNC).  
+                <br>• <b>Síntomas de intoxicación:</b> confusión, habla distorsionada, mareos, sequedad en la boca, problemas motrices y de memoria.  
+                La respiración se vuelve lenta o puede detenerse por completo.  
+                <br>• <b>Ejemplos:</b> alcohol, cannabis, analgésicos, benzodiacepinas, opiáceos y sus análogos sintéticos como el fentanilo.
+            </li><br>
+
+            <li>
+                <b>Estimulantes:</b> Activan o incrementan la actividad del SNC.  
+                <br>• <b>Síntomas de intoxicación:</b> aumento de la frecuencia cardiaca, temperatura corporal y presión arterial. 
+                Generan sensación de energía, estado de alerta y euforia. También pueden causar sudoración, náuseas y vómito.  
+                <br>• <b>Ejemplos:</b> cafeína, nicotina, cocaína y metanfetamina.
+            </li><br>
+
+            <li>
+                <b>Alucinógenas:</b> Provocan alteraciones en la percepción, el pensamiento y el estado de ánimo.  
+                <br>• <b>Síntomas:</b> confusión, alucinaciones visuales o auditivas, y pérdida de la noción del tiempo y la realidad.  
+                <br>• <b>Ejemplos:</b> LSD, hongos alucinógenos, peyote y cannabis (por su efecto mixto).
+            </li><br>
+
+            <li>
+                <b>Fármacos de uso médico:</b> Son medicamentos que actúan sobre el SNC, recetados para aliviar dolor, ansiedad, insomnio o convulsiones.  
+                <br>Cuando se usan sin prescripción o en dosis mayores, pueden generar dependencia o intoxicación.  
+                <br>• <b>Ejemplos:</b> analgésicos opioides, sedantes, ansiolíticos y algunos antidepresivos.
+            </li>
         </ul>
 
         <div class="note">
             <strong>Ten presente que...</strong>
             <ul>
-                <li> Las drogas o sustancias psicoactivas producen modificaciones en una o más funciones del organismo.</li>
-                <li> Las drogas se clasifican en cuatro tipos: depresoras, estimulantes, alucinógenas y fármacos de uso médico.</li>
-                <li>La adolescencia es una etapa vulnerable para el inicio del consumo.</li>
+                <li>Las drogas o sustancias psicoactivas producen modificaciones en una o más funciones del organismo.</li>
+                <li>El abuso de cualquier sustancia puede afectar la salud física, mental y emocional.</li>
+                <li>La adolescencia es una etapa especialmente vulnerable para el inicio del consumo.</li>
+                <li>La prevención y la información son las mejores herramientas para evitar su uso.</li>
             </ul>
         </div>
     </div>

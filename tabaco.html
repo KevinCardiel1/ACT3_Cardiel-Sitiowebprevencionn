@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabaco - ¡Te afecta a ti y a todos!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="hamburger-icon" id="menu-toggle">☰</button>
+
+    <nav class="menu-nav" id="menu">
+        <ul>
+            <li><a href="index.html">Las drogas y su clasificación</a></li>
+            <li><a href="fentanilo.html">Fentanilo. ¡A la primera te mata!</a></li>
+            <li><a href="metanfetamina.html">Metanfetamina. ¡Te engancha!</a></li>
+            <li><a href="vapeadores.html">Vapeadores. ¡Neta son tóxicos!</a></li>
+            <li><a href="cannabis.html">Cannabis (marihuana). ¡Sí te daña!</a></li>
+            <li><a href="tabaco.html">Tabaco. ¡Te afecta a ti y a todos!</a></li>
+            <li><a href="alcohol.html">Alcohol. ¡Cuídate, no inicies!</a></li>
+            <li><a href="benzodiacepinas.html">Benzodiacepinas. ¡No son un juego!</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Tabaco</h1>
+        <h2>¡Te afecta a ti y a todos!</h2>
+
+        <h2>Propósito</h2>
+        <p>
+            Dar a conocer los daños a la salud causados por el consumo del tabaco y el humo que genera, tanto para quien fuma 
+            como para las personas que lo rodean, promoviendo la conciencia sobre sus riesgos y las alternativas para evitar su uso.
+        </p>
+
+        <h2>¿Qué es?</h2>
+        <p>
+            El tabaco proviene de la planta <i>Nicotiana tabacum</i> y contiene nicotina, una sustancia altamente adictiva.  
+            Se consume principalmente al fumar cigarrillos, cigarros o pipa, aunque también se utiliza en presentaciones como tabaco para mascar o inhalar.  
+            Es una de las drogas legales más consumidas en el mundo y una de las principales causas de muerte prevenible.
+        </p>
+        <p>
+            El humo del tabaco contiene más de 7,000 sustancias químicas, de las cuales al menos 70 son cancerígenas.  
+            No solo afecta al fumador, sino también a quienes inhalan el humo de forma pasiva, lo que se conoce como tabaquismo pasivo.
+        </p>
+
+        <h2>Formas de consumo</h2>
+        <ul>
+            <li><b>Cigarrillo convencional:</b> La forma más común; cada uno contiene alrededor de 12 mg de nicotina y múltiples sustancias tóxicas.</li>
+            <li><b>Puros o cigarros:</b> Contienen más tabaco y se inhalan más profundamente.</li>
+            <li><b>Tabaco para mascar o aspirar:</b> Se absorbe por las mucosas, provocando daños en encías, dientes y garganta.</li>
+        </ul>
+
+        <h2>Efectos durante su consumo</h2>
+        <ul>
+            <li>Incremento temporal del estado de alerta o concentración.</li>
+            <li>Sensación de relajación o reducción del estrés (falsa sensación).</li>
+            <li>Irritación en garganta y vías respiratorias.</li>
+            <li>Mal aliento, dientes manchados y pérdida del gusto o el olfato.</li>
+            <li>Aumento del ritmo cardíaco y de la presión arterial.</li>
+        </ul>
+
+        <h2>Efectos después del consumo</h2>
+        <p>
+            Con el tiempo, el consumo de tabaco produce una fuerte dependencia física y psicológica.  
+            El cuerpo necesita nicotina para funcionar con “normalidad”, lo que provoca ansiedad, insomnio, irritabilidad y problemas de concentración cuando no se fuma.  
+            Además, se acumulan daños en los pulmones, el corazón y otros órganos vitales.
+        </p>
+
+        <h2>Principales daños irreversibles a la salud</h2>
+        <ul>
+            <li>Cáncer de pulmón, boca, garganta, páncreas y vejiga.</li>
+            <li>Enfermedades respiratorias crónicas como bronquitis y enfisema.</li>
+            <li>Infartos y enfermedades cardiovasculares.</li>
+            <li>Disminución de la capacidad pulmonar.</li>
+            <li>Problemas de fertilidad y complicaciones en el embarazo.</li>
+        </ul>
+
+        <div class="note">
+            <strong>Ten presente:</strong>
+            <ul>
+                <li>Fumar daña prácticamente todos los órganos del cuerpo.</li>
+                <li>El humo de segunda mano afecta gravemente a familiares, amigos y niños.</li>
+                <li>Dejar de fumar mejora la salud desde el primer día y reduce el riesgo de muerte prematura.</li>
+            </ul>
+        </div>
+
+        <h2>Mitos y realidades</h2>
+        <ul>
+            <li><b>Mito:</b> “Fumar uno o dos cigarrillos al día no hace daño.”  
+                <br><b>Realidad:</b> Aun pequeñas cantidades causan daños pulmonares y cardiovasculares acumulativos.</li><br>
+
+            <li><b>Mito:</b> “Fumar relaja o quita el estrés.”  
+                <br><b>Realidad:</b> La nicotina crea dependencia y el alivio que se siente al fumar es solo temporal.</li><br>
+
+            <li><b>Mito:</b> “El cigarro electrónico es más seguro.”  
+                <br><b>Realidad:</b> También contiene sustancias tóxicas y causa daños pulmonares y adicción a la nicotina.</li><br>
+
+            <li><b>Mito:</b> “Dejar de fumar después de años no sirve de nada.”  
+                <br><b>Realidad:</b> Dejar el tabaco siempre mejora la salud, sin importar la edad o el tiempo que se haya fumado.</li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const menu = document.getElementById("menu");
+        menuToggle.addEventListener("click", () => menu.classList.toggle("active"));
+    </script>
+</body>
+</html>

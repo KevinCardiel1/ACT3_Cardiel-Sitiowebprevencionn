@@ -76,14 +76,11 @@ p, li {
     background-color: #ff4d4d;
 }
 
-/* --- CONTENEDOR PRINCIPAL --- */
 .container {
     max-width: 950px;
     margin: 80px auto;
     background: #fff;
-    padding: 40px 50px;
-    border-radius: 20px;
-    box-shadow: 0 5px 25px rgba(0,0,0,0.2);
+    padding: 70px 90px;
 }
 
 ul {
@@ -91,7 +88,7 @@ ul {
 }
 
 .note {
-    background: #f5f0ff;
+    background: #ffffff;
     border-left: 5px solid #3c17c0;
     border-right: 5px solid #3c17c0;
     padding: 15px;
@@ -99,7 +96,6 @@ ul {
     border-radius: 10px;
 }
 
-/* --- RESPONSIVO --- */
 @media (max-width: 768px) {
     .container {
         padding: 25px;
